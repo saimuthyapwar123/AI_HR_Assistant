@@ -1,0 +1,53 @@
+# -------------------------
+# Core Python
+# -------------------------
+python-dotenv>=1.0.1
+
+# -------------------------
+# FastAPI (API layer – next step)
+# -------------------------
+fastapi>=0.110.0
+uvicorn>=0.27.1
+
+# -------------------------
+# LangChain Core
+# -------------------------
+langchain>=0.2.11
+langchain-core>=0.2.30
+langchain-community>=0.2.11
+
+# -------------------------
+# LangGraph (Multi-Agent)
+# -------------------------
+langgraph
+langgraph-checkpoint-mongodb
+
+# -------------------------
+# Gemini (Google GenAI)
+# -------------------------
+langchain-google-genai>=1.0.8
+google-generativeai>=0.7.2
+langchain-anthropic
+
+# -------------------------
+# RAG & Vector Store
+# -------------------------
+chromadb>=0.5.5
+pypdf>=4.2.0
+docx2txt>=0.8
+
+# -------------------------
+# MongoDB
+# -------------------------
+pymongo>=4.7.0
+
+# -------------------------
+# Utilities
+# -------------------------
+typing-extensions>=4.12.0
+
+# -------------------------
+# Embeding
+# -------------------------
+langchain-huggingface 
+sentence-transformers
